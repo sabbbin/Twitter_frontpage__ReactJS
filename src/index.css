@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#tw-img{
+    height: 100vh;
+}
+#heading{
+  font-size: 90px;
+  font-weight: 160px;
+}
+#sub_heading{
+  font-size: 40px;
+
+  font-weight: 300px;
+}
