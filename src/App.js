@@ -14,15 +14,13 @@ export default function App() {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6 order-md-1 col-sm-12 order-2 twitter-img ">
-            <img
-              src={process.env.PUBLIC_URL + "twitter.jpg"}
-              id="tw-img"
-              className="img-fluid"
-            ></img>
+          <div className="col-md-6  col-sm-12 pt-5 twitter-img "
+         
+          >
+          
           </div>
 
-          <div className="col-md-5 offset-col-1 pt-5 order-md-2  twitter-form">
+          <div className="col-md-5 offset-col-1 pt-5 twitter-form mb-4">
             <div>
               <div className="d-flex ">
                 <FontAwesomeIcon
