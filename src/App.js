@@ -14,7 +14,7 @@ export default function App() {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-6">
+          <div className="col-md-6 order-md-1 col-sm-12 order-2 twitter-img ">
             <img
               src={process.env.PUBLIC_URL + "twitter.jpg"}
               id="tw-img"
@@ -22,7 +22,7 @@ export default function App() {
             ></img>
           </div>
 
-          <div className="col-5 offset-col-1 pt-5">
+          <div className="col-md-5 offset-col-1 pt-5 order-md-2  twitter-form">
             <div>
               <div className="d-flex ">
                 <FontAwesomeIcon

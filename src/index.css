@@ -16,3 +16,16 @@ body {
 
   font-weight: 300px;
 }
+
+@media screen and ( max-width:777px){
+  .twitter-img{
+    padding-top: 30px;
+    order:2;
+    width:100%
+  }
+  .twitter-form{
+     order:1;
+    
+  }
+
+}
